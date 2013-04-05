@@ -1,0 +1,17 @@
+{
+  "name": "fcomp",
+  "version": "1.0.0",
+  "description": "function composition",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathan7/fcomp.git"
+  },
+  "keywords": [
+    "functional",
+    "function",
+    "composition"
+  ],
+  "author": "Nathan Zadoks",
+  "license": "MIT"
+}
