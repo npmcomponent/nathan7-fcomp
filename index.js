@@ -8,5 +8,9 @@ module.exports = function fcomp() {
           val = fns[i](val)
         return val
       }
+  for (var i = 0; i < len; i++)
+    fn.displayName = (fn.displayName || '')
+      + (i === 0 ? '' : ' · ')
+      + fns[i].name
   return fn
 }
