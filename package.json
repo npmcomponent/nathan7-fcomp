@@ -1,6 +1,6 @@
 {
   "name": "fcomp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "function composition",
   "main": "index.js",
   "repository": {
