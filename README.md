@@ -5,6 +5,10 @@
 
 ## Installation
 
+    $ npm install fcomp
+
+  or
+
     $ component install nathan7/fcomp
 
 ## API
