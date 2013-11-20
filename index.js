@@ -1,5 +1,7 @@
 var apply = Function.prototype.apply
-module.exports = function fcomp() {
+module.exports = fcomp
+
+function fcomp() {
   var fns = arguments
     , len = fns.length
     , fn = function() {
@@ -13,4 +15,8 @@ module.exports = function fcomp() {
       + (i === 0 ? '' : ' · ')
       + fns[i].name
   return fn
+}
+
+fcomp.reverse = function() {
+  return fcomp.apply(null, [].slice.call(arguments).reverse())
 }
